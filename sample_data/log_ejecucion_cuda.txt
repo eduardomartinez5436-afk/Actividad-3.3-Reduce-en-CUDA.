@@ -1,0 +1,1724 @@
+[HOST] [Equipo: PC01] ========== NUEVA EJECUCION ==========
+[HOST] [Equipo: PC01] PRACTICA 1.3 - REDUCCIONES CUDA
+[HOST] [Equipo: PC01] GPU: Tesla T4
+[HOST] [Equipo: PC01] Memoria GPU: 14912.687500 MB
+[HOST] [Equipo: PC01] Maximo hilos por bloque: 1024
+[HOST] [Equipo: PC01] Configuracion: N=40, hilos=32, detalle=1
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 1
+[HOST] [Equipo: PC01] Arreglos A, B y C creados. N=40
+[HOST] [Equipo: PC01] Memoria Host y Device reservada.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 2
+[HOST] [Equipo: PC01] Primero crea y llena los arreglos.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 1
+[HOST] [Equipo: PC01] Los arreglos ya existen.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 2
+[HOST] [Equipo: PC01] Primero crea y llena los arreglos.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 3
+[HOST] [Equipo: PC01] Primero crea y llena los arreglos.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 4
+[HOST] [Equipo: PC01] Primero crea y llena los arreglos.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 5
+[HOST] [Equipo: PC01] Primero crea y llena los arreglos.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 1
+[HOST] [Equipo: PC01] Los arreglos ya existen.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 6
+[HOST] [Equipo: PC01] Datos copiados de Host a Device.
+[HOST] [Equipo: PC01] Llenado secuencial completado.
+[HOST] [Equipo: PC01] [Indice Global: 0] A=1 B=1 C=0
+[HOST] [Equipo: PC01] [Indice Global: 1] A=2 B=2 C=0
+[HOST] [Equipo: PC01] [Indice Global: 2] A=3 B=3 C=0
+[HOST] [Equipo: PC01] [Indice Global: 3] A=4 B=4 C=0
+[HOST] [Equipo: PC01] [Indice Global: 4] A=5 B=5 C=0
+[HOST] [Equipo: PC01] [Indice Global: 5] A=6 B=6 C=0
+[HOST] [Equipo: PC01] [Indice Global: 6] A=7 B=7 C=0
+[HOST] [Equipo: PC01] [Indice Global: 7] A=8 B=8 C=0
+[HOST] [Equipo: PC01] [Indice Global: 8] A=9 B=9 C=0
+[HOST] [Equipo: PC01] [Indice Global: 9] A=10 B=10 C=0
+[HOST] [Equipo: PC01] [Indice Global: 10] A=11 B=11 C=0
+[HOST] [Equipo: PC01] [Indice Global: 11] A=12 B=12 C=0
+[HOST] [Equipo: PC01] [Indice Global: 12] A=13 B=13 C=0
+[HOST] [Equipo: PC01] [Indice Global: 13] A=14 B=14 C=0
+[HOST] [Equipo: PC01] [Indice Global: 14] A=15 B=15 C=0
+[HOST] [Equipo: PC01] [Indice Global: 15] A=16 B=16 C=0
+[HOST] [Equipo: PC01] [Indice Global: 16] A=17 B=17 C=0
+[HOST] [Equipo: PC01] [Indice Global: 17] A=18 B=18 C=0
+[HOST] [Equipo: PC01] [Indice Global: 18] A=19 B=19 C=0
+[HOST] [Equipo: PC01] [Indice Global: 19] A=20 B=20 C=0
+[HOST] [Equipo: PC01] [Indice Global: 20] A=21 B=21 C=0
+[HOST] [Equipo: PC01] [Indice Global: 21] A=22 B=22 C=0
+[HOST] [Equipo: PC01] [Indice Global: 22] A=23 B=23 C=0
+[HOST] [Equipo: PC01] [Indice Global: 23] A=24 B=24 C=0
+[HOST] [Equipo: PC01] [Indice Global: 24] A=25 B=25 C=0
+[HOST] [Equipo: PC01] [Indice Global: 25] A=26 B=26 C=0
+[HOST] [Equipo: PC01] [Indice Global: 26] A=27 B=27 C=0
+[HOST] [Equipo: PC01] [Indice Global: 27] A=28 B=28 C=0
+[HOST] [Equipo: PC01] [Indice Global: 28] A=29 B=29 C=0
+[HOST] [Equipo: PC01] [Indice Global: 29] A=30 B=30 C=0
+[HOST] [Equipo: PC01] [Indice Global: 30] A=31 B=31 C=0
+[HOST] [Equipo: PC01] [Indice Global: 31] A=32 B=32 C=0
+[HOST] [Equipo: PC01] [Indice Global: 32] A=33 B=33 C=0
+[HOST] [Equipo: PC01] [Indice Global: 33] A=34 B=34 C=0
+[HOST] [Equipo: PC01] [Indice Global: 34] A=35 B=35 C=0
+[HOST] [Equipo: PC01] [Indice Global: 35] A=36 B=36 C=0
+[HOST] [Equipo: PC01] [Indice Global: 36] A=37 B=37 C=0
+[HOST] [Equipo: PC01] [Indice Global: 37] A=38 B=38 C=0
+[HOST] [Equipo: PC01] [Indice Global: 38] A=39 B=39 C=0
+[HOST] [Equipo: PC01] [Indice Global: 39] A=40 B=40 C=0
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 7
+[HOST] [Equipo: PC01] Datos copiados de Host a Device.
+[HOST] [Equipo: PC01] Llenado aleatorio completado.
+[HOST] [Equipo: PC01] [Indice Global: 0] A=242499 B=896596 C=0
+[HOST] [Equipo: PC01] [Indice Global: 1] A=648791 B=438930 C=0
+[HOST] [Equipo: PC01] [Indice Global: 2] A=938101 B=369457 C=0
+[HOST] [Equipo: PC01] [Indice Global: 3] A=826522 B=940884 C=0
+[HOST] [Equipo: PC01] [Indice Global: 4] A=936301 B=536964 C=0
+[HOST] [Equipo: PC01] [Indice Global: 5] A=567018 B=308362 C=0
+[HOST] [Equipo: PC01] [Indice Global: 6] A=89336 B=115526 C=0
+[HOST] [Equipo: PC01] [Indice Global: 7] A=747949 B=162189 C=0
+[HOST] [Equipo: PC01] [Indice Global: 8] A=38028 B=99302 C=0
+[HOST] [Equipo: PC01] [Indice Global: 9] A=249368 B=386848 C=0
+[HOST] [Equipo: PC01] [Indice Global: 10] A=329576 B=94156 C=0
+[HOST] [Equipo: PC01] [Indice Global: 11] A=700068 B=10514 C=0
+[HOST] [Equipo: PC01] [Indice Global: 12] A=801920 B=280429 C=0
+[HOST] [Equipo: PC01] [Indice Global: 13] A=416132 B=784975 C=0
+[HOST] [Equipo: PC01] [Indice Global: 14] A=486990 B=371133 C=0
+[HOST] [Equipo: PC01] [Indice Global: 15] A=694355 B=729488 C=0
+[HOST] [Equipo: PC01] [Indice Global: 16] A=784080 B=343145 C=0
+[HOST] [Equipo: PC01] [Indice Global: 17] A=168417 B=722180 C=0
+[HOST] [Equipo: PC01] [Indice Global: 18] A=712601 B=511291 C=0
+[HOST] [Equipo: PC01] [Indice Global: 19] A=663063 B=648901 C=0
+[HOST] [Equipo: PC01] [Indice Global: 20] A=48254 B=746433 C=0
+[HOST] [Equipo: PC01] [Indice Global: 21] A=473614 B=653941 C=0
+[HOST] [Equipo: PC01] [Indice Global: 22] A=861958 B=221562 C=0
+[HOST] [Equipo: PC01] [Indice Global: 23] A=816130 B=416337 C=0
+[HOST] [Equipo: PC01] [Indice Global: 24] A=837215 B=581849 C=0
+[HOST] [Equipo: PC01] [Indice Global: 25] A=803185 B=683143 C=0
+[HOST] [Equipo: PC01] [Indice Global: 26] A=192357 B=19604 C=0
+[HOST] [Equipo: PC01] [Indice Global: 27] A=693656 B=994276 C=0
+[HOST] [Equipo: PC01] [Indice Global: 28] A=816384 B=626139 C=0
+[HOST] [Equipo: PC01] [Indice Global: 29] A=779250 B=303373 C=0
+[HOST] [Equipo: PC01] [Indice Global: 30] A=513624 B=989956 C=0
+[HOST] [Equipo: PC01] [Indice Global: 31] A=32860 B=297703 C=0
+[HOST] [Equipo: PC01] [Indice Global: 32] A=333101 B=717628 C=0
+[HOST] [Equipo: PC01] [Indice Global: 33] A=19883 B=562053 C=0
+[HOST] [Equipo: PC01] [Indice Global: 34] A=228918 B=199297 C=0
+[HOST] [Equipo: PC01] [Indice Global: 35] A=210954 B=277171 C=0
+[HOST] [Equipo: PC01] [Indice Global: 36] A=462081 B=200919 C=0
+[HOST] [Equipo: PC01] [Indice Global: 37] A=931112 B=840390 C=0
+[HOST] [Equipo: PC01] [Indice Global: 38] A=422481 B=263593 C=0
+[HOST] [Equipo: PC01] [Indice Global: 39] A=256727 B=776047 C=0
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 2
+[HOST] [Equipo: PC01] Iniciando Kernel: SUMA
+[HOST] [Equipo: PC01] Bloques: 2, hilos/bloque: 32
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: 2] Resultado: 1139095
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: 2] Resultado: 1087721
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: 2] Resultado: 1307558
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: 2] Resultado: 1767406
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: 2] Resultado: 1473265
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: 2] Resultado: 875380
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: 2] Resultado: 204862
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: 2] Resultado: 910138
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: 2] Resultado: 137330
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: 2] Resultado: 636216
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: 2] Resultado: 423732
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: 2] Resultado: 710582
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: 2] Resultado: 1082349
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: 2] Resultado: 1201107
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: 2] Resultado: 858123
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: 2] Resultado: 1423843
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: 2] Resultado: 1127225
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: 2] Resultado: 890597
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: 2] Resultado: 1223892
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: 2] Resultado: 1311964
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: 2] Resultado: 794687
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: 2] Resultado: 1127555
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: 2] Resultado: 1083520
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: 2] Resultado: 1232467
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: 2] Resultado: 1419064
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: 2] Resultado: 1486328
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: 2] Resultado: 211961
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: 2] Resultado: 1687932
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: 2] Resultado: 1442523
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: 2] Resultado: 1082623
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: 2] Resultado: 1503580
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: 2] Resultado: 330563
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: 2] Resultado: 1050729
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: 2] Resultado: 581936
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: 2] Resultado: 428215
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: 2] Resultado: 488125
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: 2] Resultado: 663000
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: 2] Resultado: 1771502
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: 2] Resultado: 686074
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: 2] Resultado: 1032774
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 3.049056 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 12
+[HOST] [Equipo: PC01] Finalizando programa.
+[HOST] [Equipo: PC01] Memoria Host y Device liberada.
+[HOST] [Equipo: PC01] ========== NUEVA EJECUCION ==========
+[HOST] [Equipo: PC01] PRACTICA 1.3 - REDUCCIONES CUDA
+[HOST] [Equipo: PC01] GPU: Tesla T4
+[HOST] [Equipo: PC01] Memoria GPU: 14912.687500 MB
+[HOST] [Equipo: PC01] Maximo hilos por bloque: 1024
+[HOST] [Equipo: PC01] Configuracion: N=40, hilos=32, detalle=1
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] PRACTICA 1.3 - CUDA
+[HOST] [Equipo: PC01] GPU: Tesla T4
+[HOST] [Equipo: PC01] Memoria GPU: 14912.687500 MB
+[HOST] [Equipo: PC01] Maximo hilos por bloque: 1024
+[HOST] [Equipo: PC01] Opcion seleccionada: 1
+[HOST] [Equipo: PC01] Arreglos A, B y C creados.
+[HOST] [Equipo: PC01] Elementos por arreglo: 40
+[HOST] [Equipo: PC01] Memoria Host y Device reservada.
+[HOST] [Equipo: PC01] Opcion seleccionada: 1
+[HOST] [Equipo: PC01] Los arreglos ya fueron creados.
+[HOST] [Equipo: PC01] Opcion seleccionada: 6
+[HOST] [Equipo: PC01] Arreglos copiados de Host a Device.
+[HOST] [Equipo: PC01] Llenado secuencial completado.
+[HOST] [Equipo: PC01] [Indice Global: 0] A=1 B=1 C=0
+[HOST] [Equipo: PC01] [Indice Global: 1] A=2 B=2 C=0
+[HOST] [Equipo: PC01] [Indice Global: 2] A=3 B=3 C=0
+[HOST] [Equipo: PC01] [Indice Global: 3] A=4 B=4 C=0
+[HOST] [Equipo: PC01] [Indice Global: 4] A=5 B=5 C=0
+[HOST] [Equipo: PC01] [Indice Global: 5] A=6 B=6 C=0
+[HOST] [Equipo: PC01] [Indice Global: 6] A=7 B=7 C=0
+[HOST] [Equipo: PC01] [Indice Global: 7] A=8 B=8 C=0
+[HOST] [Equipo: PC01] [Indice Global: 8] A=9 B=9 C=0
+[HOST] [Equipo: PC01] [Indice Global: 9] A=10 B=10 C=0
+[HOST] [Equipo: PC01] [Indice Global: 10] A=11 B=11 C=0
+[HOST] [Equipo: PC01] [Indice Global: 11] A=12 B=12 C=0
+[HOST] [Equipo: PC01] [Indice Global: 12] A=13 B=13 C=0
+[HOST] [Equipo: PC01] [Indice Global: 13] A=14 B=14 C=0
+[HOST] [Equipo: PC01] [Indice Global: 14] A=15 B=15 C=0
+[HOST] [Equipo: PC01] [Indice Global: 15] A=16 B=16 C=0
+[HOST] [Equipo: PC01] [Indice Global: 16] A=17 B=17 C=0
+[HOST] [Equipo: PC01] [Indice Global: 17] A=18 B=18 C=0
+[HOST] [Equipo: PC01] [Indice Global: 18] A=19 B=19 C=0
+[HOST] [Equipo: PC01] [Indice Global: 19] A=20 B=20 C=0
+[HOST] [Equipo: PC01] [Indice Global: 20] A=21 B=21 C=0
+[HOST] [Equipo: PC01] [Indice Global: 21] A=22 B=22 C=0
+[HOST] [Equipo: PC01] [Indice Global: 22] A=23 B=23 C=0
+[HOST] [Equipo: PC01] [Indice Global: 23] A=24 B=24 C=0
+[HOST] [Equipo: PC01] [Indice Global: 24] A=25 B=25 C=0
+[HOST] [Equipo: PC01] [Indice Global: 25] A=26 B=26 C=0
+[HOST] [Equipo: PC01] [Indice Global: 26] A=27 B=27 C=0
+[HOST] [Equipo: PC01] [Indice Global: 27] A=28 B=28 C=0
+[HOST] [Equipo: PC01] [Indice Global: 28] A=29 B=29 C=0
+[HOST] [Equipo: PC01] [Indice Global: 29] A=30 B=30 C=0
+[HOST] [Equipo: PC01] [Indice Global: 30] A=31 B=31 C=0
+[HOST] [Equipo: PC01] [Indice Global: 31] A=32 B=32 C=0
+[HOST] [Equipo: PC01] [Indice Global: 32] A=33 B=33 C=0
+[HOST] [Equipo: PC01] [Indice Global: 33] A=34 B=34 C=0
+[HOST] [Equipo: PC01] [Indice Global: 34] A=35 B=35 C=0
+[HOST] [Equipo: PC01] [Indice Global: 35] A=36 B=36 C=0
+[HOST] [Equipo: PC01] [Indice Global: 36] A=37 B=37 C=0
+[HOST] [Equipo: PC01] [Indice Global: 37] A=38 B=38 C=0
+[HOST] [Equipo: PC01] [Indice Global: 38] A=39 B=39 C=0
+[HOST] [Equipo: PC01] [Indice Global: 39] A=40 B=40 C=0
+[HOST] [Equipo: PC01] Opcion seleccionada: 7
+[HOST] [Equipo: PC01] Arreglos copiados de Host a Device.
+[HOST] [Equipo: PC01] Llenado aleatorio completado.
+[HOST] [Equipo: PC01] [Indice Global: 0] A=569345 B=218488 C=0
+[HOST] [Equipo: PC01] [Indice Global: 1] A=484987 B=621869 C=0
+[HOST] [Equipo: PC01] [Indice Global: 2] A=493585 B=341025 C=0
+[HOST] [Equipo: PC01] [Indice Global: 3] A=545160 B=384397 C=0
+[HOST] [Equipo: PC01] [Indice Global: 4] A=973941 B=830746 C=0
+[HOST] [Equipo: PC01] [Indice Global: 5] A=945972 B=112654 C=0
+[HOST] [Equipo: PC01] [Indice Global: 6] A=251903 B=358700 C=0
+[HOST] [Equipo: PC01] [Indice Global: 7] A=697667 B=671431 C=0
+[HOST] [Equipo: PC01] [Indice Global: 8] A=838575 B=68836 C=0
+[HOST] [Equipo: PC01] [Indice Global: 9] A=422693 B=454443 C=0
+[HOST] [Equipo: PC01] [Indice Global: 10] A=294344 B=223382 C=0
+[HOST] [Equipo: PC01] [Indice Global: 11] A=569652 B=262857 C=0
+[HOST] [Equipo: PC01] [Indice Global: 12] A=954232 B=759617 C=0
+[HOST] [Equipo: PC01] [Indice Global: 13] A=648182 B=708436 C=0
+[HOST] [Equipo: PC01] [Indice Global: 14] A=243427 B=568611 C=0
+[HOST] [Equipo: PC01] [Indice Global: 15] A=730605 B=812771 C=0
+[HOST] [Equipo: PC01] [Indice Global: 16] A=303451 B=215591 C=0
+[HOST] [Equipo: PC01] [Indice Global: 17] A=950992 B=797035 C=0
+[HOST] [Equipo: PC01] [Indice Global: 18] A=556615 B=12503 C=0
+[HOST] [Equipo: PC01] [Indice Global: 19] A=697783 B=530555 C=0
+[HOST] [Equipo: PC01] [Indice Global: 20] A=843248 B=160107 C=0
+[HOST] [Equipo: PC01] [Indice Global: 21] A=643208 B=95150 C=0
+[HOST] [Equipo: PC01] [Indice Global: 22] A=518806 B=857226 C=0
+[HOST] [Equipo: PC01] [Indice Global: 23] A=282932 B=357381 C=0
+[HOST] [Equipo: PC01] [Indice Global: 24] A=926061 B=705625 C=0
+[HOST] [Equipo: PC01] [Indice Global: 25] A=811823 B=736756 C=0
+[HOST] [Equipo: PC01] [Indice Global: 26] A=445358 B=897827 C=0
+[HOST] [Equipo: PC01] [Indice Global: 27] A=999612 B=399590 C=0
+[HOST] [Equipo: PC01] [Indice Global: 28] A=657443 B=164145 C=0
+[HOST] [Equipo: PC01] [Indice Global: 29] A=624377 B=900870 C=0
+[HOST] [Equipo: PC01] [Indice Global: 30] A=732756 B=354981 C=0
+[HOST] [Equipo: PC01] [Indice Global: 31] A=229992 B=36206 C=0
+[HOST] [Equipo: PC01] [Indice Global: 32] A=570571 B=180983 C=0
+[HOST] [Equipo: PC01] [Indice Global: 33] A=349592 B=643537 C=0
+[HOST] [Equipo: PC01] [Indice Global: 34] A=193485 B=47374 C=0
+[HOST] [Equipo: PC01] [Indice Global: 35] A=690443 B=36733 C=0
+[HOST] [Equipo: PC01] [Indice Global: 36] A=207480 B=850002 C=0
+[HOST] [Equipo: PC01] [Indice Global: 37] A=648234 B=242638 C=0
+[HOST] [Equipo: PC01] [Indice Global: 38] A=707228 B=931166 C=0
+[HOST] [Equipo: PC01] [Indice Global: 39] A=600018 B=633288 C=0
+[HOST] [Equipo: PC01] Opcion seleccionada: 2
+[HOST] [Equipo: PC01] Funcion pendiente de implementar.
+[HOST] [Equipo: PC01] Opcion seleccionada: 2
+[HOST] [Equipo: PC01] Funcion pendiente de implementar.
+[HOST] [Equipo: PC01] Opcion seleccionada: 3
+[HOST] [Equipo: PC01] Funcion pendiente de implementar.
+[HOST] [Equipo: PC01] ========== NUEVA EJECUCION ==========
+[HOST] [Equipo: PC01] PRACTICA 1.3 - REDUCCIONES CUDA
+[HOST] [Equipo: PC01] GPU: Tesla T4
+[HOST] [Equipo: PC01] Memoria GPU: 14912.687500 MB
+[HOST] [Equipo: PC01] Maximo hilos por bloque: 1024
+[HOST] [Equipo: PC01] Configuracion: N=40, hilos=32, detalle=1
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] ========== NUEVA EJECUCION ==========
+[HOST] [Equipo: PC01] PRACTICA 1.3 - REDUCCIONES CUDA
+[HOST] [Equipo: PC01] GPU: Tesla T4
+[HOST] [Equipo: PC01] Memoria GPU: 14912.687500 MB
+[HOST] [Equipo: PC01] Maximo hilos por bloque: 1024
+[HOST] [Equipo: PC01] Configuracion: N=40, hilos=32, detalle=1
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 1
+[HOST] [Equipo: PC01] Arreglos A, B y C creados. N=40
+[HOST] [Equipo: PC01] Memoria Host y Device reservada.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 1
+[HOST] [Equipo: PC01] Los arreglos ya existen.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 2
+[HOST] [Equipo: PC01] Primero crea y llena los arreglos.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 6
+[HOST] [Equipo: PC01] Datos copiados de Host a Device.
+[HOST] [Equipo: PC01] Llenado secuencial completado.
+[HOST] [Equipo: PC01] [Indice Global: 0] A=1 B=1 C=0
+[HOST] [Equipo: PC01] [Indice Global: 1] A=2 B=2 C=0
+[HOST] [Equipo: PC01] [Indice Global: 2] A=3 B=3 C=0
+[HOST] [Equipo: PC01] [Indice Global: 3] A=4 B=4 C=0
+[HOST] [Equipo: PC01] [Indice Global: 4] A=5 B=5 C=0
+[HOST] [Equipo: PC01] [Indice Global: 5] A=6 B=6 C=0
+[HOST] [Equipo: PC01] [Indice Global: 6] A=7 B=7 C=0
+[HOST] [Equipo: PC01] [Indice Global: 7] A=8 B=8 C=0
+[HOST] [Equipo: PC01] [Indice Global: 8] A=9 B=9 C=0
+[HOST] [Equipo: PC01] [Indice Global: 9] A=10 B=10 C=0
+[HOST] [Equipo: PC01] [Indice Global: 10] A=11 B=11 C=0
+[HOST] [Equipo: PC01] [Indice Global: 11] A=12 B=12 C=0
+[HOST] [Equipo: PC01] [Indice Global: 12] A=13 B=13 C=0
+[HOST] [Equipo: PC01] [Indice Global: 13] A=14 B=14 C=0
+[HOST] [Equipo: PC01] [Indice Global: 14] A=15 B=15 C=0
+[HOST] [Equipo: PC01] [Indice Global: 15] A=16 B=16 C=0
+[HOST] [Equipo: PC01] [Indice Global: 16] A=17 B=17 C=0
+[HOST] [Equipo: PC01] [Indice Global: 17] A=18 B=18 C=0
+[HOST] [Equipo: PC01] [Indice Global: 18] A=19 B=19 C=0
+[HOST] [Equipo: PC01] [Indice Global: 19] A=20 B=20 C=0
+[HOST] [Equipo: PC01] [Indice Global: 20] A=21 B=21 C=0
+[HOST] [Equipo: PC01] [Indice Global: 21] A=22 B=22 C=0
+[HOST] [Equipo: PC01] [Indice Global: 22] A=23 B=23 C=0
+[HOST] [Equipo: PC01] [Indice Global: 23] A=24 B=24 C=0
+[HOST] [Equipo: PC01] [Indice Global: 24] A=25 B=25 C=0
+[HOST] [Equipo: PC01] [Indice Global: 25] A=26 B=26 C=0
+[HOST] [Equipo: PC01] [Indice Global: 26] A=27 B=27 C=0
+[HOST] [Equipo: PC01] [Indice Global: 27] A=28 B=28 C=0
+[HOST] [Equipo: PC01] [Indice Global: 28] A=29 B=29 C=0
+[HOST] [Equipo: PC01] [Indice Global: 29] A=30 B=30 C=0
+[HOST] [Equipo: PC01] [Indice Global: 30] A=31 B=31 C=0
+[HOST] [Equipo: PC01] [Indice Global: 31] A=32 B=32 C=0
+[HOST] [Equipo: PC01] [Indice Global: 32] A=33 B=33 C=0
+[HOST] [Equipo: PC01] [Indice Global: 33] A=34 B=34 C=0
+[HOST] [Equipo: PC01] [Indice Global: 34] A=35 B=35 C=0
+[HOST] [Equipo: PC01] [Indice Global: 35] A=36 B=36 C=0
+[HOST] [Equipo: PC01] [Indice Global: 36] A=37 B=37 C=0
+[HOST] [Equipo: PC01] [Indice Global: 37] A=38 B=38 C=0
+[HOST] [Equipo: PC01] [Indice Global: 38] A=39 B=39 C=0
+[HOST] [Equipo: PC01] [Indice Global: 39] A=40 B=40 C=0
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 7
+[HOST] [Equipo: PC01] Datos copiados de Host a Device.
+[HOST] [Equipo: PC01] Llenado aleatorio completado.
+[HOST] [Equipo: PC01] [Indice Global: 0] A=898797 B=997595 C=0
+[HOST] [Equipo: PC01] [Indice Global: 1] A=255044 B=437409 C=0
+[HOST] [Equipo: PC01] [Indice Global: 2] A=764 B=125787 C=0
+[HOST] [Equipo: PC01] [Indice Global: 3] A=767082 B=928692 C=0
+[HOST] [Equipo: PC01] [Indice Global: 4] A=352547 B=891927 C=0
+[HOST] [Equipo: PC01] [Indice Global: 5] A=859948 B=791431 C=0
+[HOST] [Equipo: PC01] [Indice Global: 6] A=383615 B=946265 C=0
+[HOST] [Equipo: PC01] [Indice Global: 7] A=546817 B=98901 C=0
+[HOST] [Equipo: PC01] [Indice Global: 8] A=342939 B=732957 C=0
+[HOST] [Equipo: PC01] [Indice Global: 9] A=903852 B=422012 C=0
+[HOST] [Equipo: PC01] [Indice Global: 10] A=976932 B=254362 C=0
+[HOST] [Equipo: PC01] [Indice Global: 11] A=939191 B=697395 C=0
+[HOST] [Equipo: PC01] [Indice Global: 12] A=316294 B=499355 C=0
+[HOST] [Equipo: PC01] [Indice Global: 13] A=233570 B=745466 C=0
+[HOST] [Equipo: PC01] [Indice Global: 14] A=154918 B=219083 C=0
+[HOST] [Equipo: PC01] [Indice Global: 15] A=92965 B=53714 C=0
+[HOST] [Equipo: PC01] [Indice Global: 16] A=216677 B=864360 C=0
+[HOST] [Equipo: PC01] [Indice Global: 17] A=7474 B=217440 C=0
+[HOST] [Equipo: PC01] [Indice Global: 18] A=990146 B=290907 C=0
+[HOST] [Equipo: PC01] [Indice Global: 19] A=662483 B=859044 C=0
+[HOST] [Equipo: PC01] [Indice Global: 20] A=699185 B=522430 C=0
+[HOST] [Equipo: PC01] [Indice Global: 21] A=650474 B=82799 C=0
+[HOST] [Equipo: PC01] [Indice Global: 22] A=985046 B=197291 C=0
+[HOST] [Equipo: PC01] [Indice Global: 23] A=698051 B=844337 C=0
+[HOST] [Equipo: PC01] [Indice Global: 24] A=930247 B=601902 C=0
+[HOST] [Equipo: PC01] [Indice Global: 25] A=266348 B=423530 C=0
+[HOST] [Equipo: PC01] [Indice Global: 26] A=372615 B=205539 C=0
+[HOST] [Equipo: PC01] [Indice Global: 27] A=637277 B=205261 C=0
+[HOST] [Equipo: PC01] [Indice Global: 28] A=221245 B=870846 C=0
+[HOST] [Equipo: PC01] [Indice Global: 29] A=467078 B=376162 C=0
+[HOST] [Equipo: PC01] [Indice Global: 30] A=606280 B=560042 C=0
+[HOST] [Equipo: PC01] [Indice Global: 31] A=946227 B=339308 C=0
+[HOST] [Equipo: PC01] [Indice Global: 32] A=940753 B=470052 C=0
+[HOST] [Equipo: PC01] [Indice Global: 33] A=73099 B=447251 C=0
+[HOST] [Equipo: PC01] [Indice Global: 34] A=760958 B=735582 C=0
+[HOST] [Equipo: PC01] [Indice Global: 35] A=306294 B=460142 C=0
+[HOST] [Equipo: PC01] [Indice Global: 36] A=774363 B=956768 C=0
+[HOST] [Equipo: PC01] [Indice Global: 37] A=59292 B=275761 C=0
+[HOST] [Equipo: PC01] [Indice Global: 38] A=670410 B=757343 C=0
+[HOST] [Equipo: PC01] [Indice Global: 39] A=120097 B=117008 C=0
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 2
+[HOST] [Equipo: PC01] Iniciando Kernel: SUMA
+[HOST] [Equipo: PC01] Bloques: 2, hilos/bloque: 32
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: 2] Resultado: 1896392
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: 2] Resultado: 692453
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: 2] Resultado: 126551
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: 2] Resultado: 1695774
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: 2] Resultado: 1244474
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: 2] Resultado: 1651379
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: 2] Resultado: 1329880
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: 2] Resultado: 645718
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: 2] Resultado: 1075896
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: 2] Resultado: 1325864
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: 2] Resultado: 1231294
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: 2] Resultado: 1636586
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: 2] Resultado: 815649
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: 2] Resultado: 979036
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: 2] Resultado: 374001
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: 2] Resultado: 146679
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: 2] Resultado: 1081037
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: 2] Resultado: 224914
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: 2] Resultado: 1281053
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: 2] Resultado: 1521527
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: 2] Resultado: 1221615
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: 2] Resultado: 733273
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: 2] Resultado: 1182337
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: 2] Resultado: 1542388
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: 2] Resultado: 1532149
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: 2] Resultado: 689878
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: 2] Resultado: 578154
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: 2] Resultado: 842538
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: 2] Resultado: 1092091
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: 2] Resultado: 843240
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: 2] Resultado: 1166322
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: 2] Resultado: 1285535
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: 2] Resultado: 1410805
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: 2] Resultado: 520350
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: 2] Resultado: 1496540
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: 2] Resultado: 766436
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: 2] Resultado: 1731131
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: 2] Resultado: 335053
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: 2] Resultado: 1427753
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: 2] Resultado: 237105
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 2.936928 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 3
+[HOST] [Equipo: PC01] Iniciando Kernel: RESTA
+[HOST] [Equipo: PC01] Bloques: 2, hilos/bloque: 32
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: 3] Resultado: -98798
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: 3] Resultado: -182365
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: 3] Resultado: -125023
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: 3] Resultado: -161610
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: 3] Resultado: -539380
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: 3] Resultado: 68517
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: 3] Resultado: -562650
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: 3] Resultado: 447916
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: 3] Resultado: -390018
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: 3] Resultado: 481840
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: 3] Resultado: 722570
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: 3] Resultado: 241796
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: 3] Resultado: -183061
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: 3] Resultado: -511896
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: 3] Resultado: -64165
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: 3] Resultado: 39251
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: 3] Resultado: -647683
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: 3] Resultado: -209966
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: 3] Resultado: 699239
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: 3] Resultado: -196561
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: 3] Resultado: 176755
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: 3] Resultado: 567675
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: 3] Resultado: 787755
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: 3] Resultado: -146286
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: 3] Resultado: 328345
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: 3] Resultado: -157182
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: 3] Resultado: 167076
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: 3] Resultado: 432016
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: 3] Resultado: -649601
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: 3] Resultado: 90916
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: 3] Resultado: 46238
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: 3] Resultado: 606919
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: 3] Resultado: 470701
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: 3] Resultado: -374152
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: 3] Resultado: 25376
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: 3] Resultado: -153848
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: 3] Resultado: -182405
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: 3] Resultado: -216469
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: 3] Resultado: -86933
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: 3] Resultado: 3089
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 0.131136 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 9
+[HOST] [Equipo: PC01] Reduccion PROMEDIO de A; N=40
+[HOST] [Equipo: PC01] Nivel 1 [DEVICE]: 2 bloques, 32 hilos/bloque, __shared__
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: Reduccion 0 - Carga] Valor: 898797
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: Reduccion 0 - Carga] Valor: 255044
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: Reduccion 0 - Carga] Valor: 764
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: Reduccion 0 - Carga] Valor: 767082
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: Reduccion 0 - Carga] Valor: 352547
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: Reduccion 0 - Carga] Valor: 859948
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: Reduccion 0 - Carga] Valor: 383615
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: Reduccion 0 - Carga] Valor: 546817
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: Reduccion 0 - Carga] Valor: 342939
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: Reduccion 0 - Carga] Valor: 903852
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: Reduccion 0 - Carga] Valor: 976932
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: Reduccion 0 - Carga] Valor: 939191
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: Reduccion 0 - Carga] Valor: 316294
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: Reduccion 0 - Carga] Valor: 233570
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: Reduccion 0 - Carga] Valor: 154918
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: Reduccion 0 - Carga] Valor: 92965
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: Reduccion 0 - Carga] Valor: 216677
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: Reduccion 0 - Carga] Valor: 7474
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: Reduccion 0 - Carga] Valor: 990146
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: Reduccion 0 - Carga] Valor: 662483
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: Reduccion 0 - Carga] Valor: 699185
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: Reduccion 0 - Carga] Valor: 650474
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: Reduccion 0 - Carga] Valor: 985046
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: Reduccion 0 - Carga] Valor: 698051
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: Reduccion 0 - Carga] Valor: 930247
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: Reduccion 0 - Carga] Valor: 266348
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: Reduccion 0 - Carga] Valor: 372615
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: Reduccion 0 - Carga] Valor: 637277
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: Reduccion 0 - Carga] Valor: 221245
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: Reduccion 0 - Carga] Valor: 467078
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: Reduccion 0 - Carga] Valor: 606280
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: Reduccion 0 - Carga] Valor: 946227
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: Reduccion 0 - Carga] Valor: 940753
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: Reduccion 0 - Carga] Valor: 73099
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: Reduccion 0 - Carga] Valor: 760958
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: Reduccion 0 - Carga] Valor: 306294
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: Reduccion 0 - Carga] Valor: 774363
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: Reduccion 0 - Carga] Valor: 59292
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: Reduccion 0 - Carga] Valor: 670410
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: Reduccion 0 - Carga] Valor: 120097
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: Reduccion 0 - Parcial] Resultado: 17382128
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: Reduccion 0 - Parcial] Resultado: 3705266
+[HOST] [Equipo: PC01] Parcial [Bloque CUDA: 0] = 17382128
+[HOST] [Equipo: PC01] Parcial [Bloque CUDA: 1] = 3705266
+[HOST] [Equipo: PC01] Resultado global PROMEDIO(A): 527184.850000
+[HOST] [Equipo: PC01] Tiempo GPU del kernel de reduccion: 0.268128 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 12
+[HOST] [Equipo: PC01] Finalizando programa.
+[HOST] [Equipo: PC01] Memoria Host y Device liberada.
+[HOST] [Equipo: PC01] ========== NUEVA EJECUCION ==========
+[HOST] [Equipo: PC01] PRACTICA 1.3 - REDUCCIONES CUDA
+[HOST] [Equipo: PC01] GPU: Tesla T4
+[HOST] [Equipo: PC01] Memoria GPU: 14912.687500 MB
+[HOST] [Equipo: PC01] Maximo hilos por bloque: 1024
+[HOST] [Equipo: PC01] Configuracion: N=40, hilos=32, detalle=1
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 1
+[HOST] [Equipo: PC01] Arreglos A, B y C creados. N=40
+[HOST] [Equipo: PC01] Memoria Host y Device reservada.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 6
+[HOST] [Equipo: PC01] Datos copiados de Host a Device.
+[HOST] [Equipo: PC01] Llenado secuencial completado.
+[HOST] [Equipo: PC01] [Indice Global: 0] A=1 B=1 C=0
+[HOST] [Equipo: PC01] [Indice Global: 1] A=2 B=2 C=0
+[HOST] [Equipo: PC01] [Indice Global: 2] A=3 B=3 C=0
+[HOST] [Equipo: PC01] [Indice Global: 3] A=4 B=4 C=0
+[HOST] [Equipo: PC01] [Indice Global: 4] A=5 B=5 C=0
+[HOST] [Equipo: PC01] [Indice Global: 5] A=6 B=6 C=0
+[HOST] [Equipo: PC01] [Indice Global: 6] A=7 B=7 C=0
+[HOST] [Equipo: PC01] [Indice Global: 7] A=8 B=8 C=0
+[HOST] [Equipo: PC01] [Indice Global: 8] A=9 B=9 C=0
+[HOST] [Equipo: PC01] [Indice Global: 9] A=10 B=10 C=0
+[HOST] [Equipo: PC01] [Indice Global: 10] A=11 B=11 C=0
+[HOST] [Equipo: PC01] [Indice Global: 11] A=12 B=12 C=0
+[HOST] [Equipo: PC01] [Indice Global: 12] A=13 B=13 C=0
+[HOST] [Equipo: PC01] [Indice Global: 13] A=14 B=14 C=0
+[HOST] [Equipo: PC01] [Indice Global: 14] A=15 B=15 C=0
+[HOST] [Equipo: PC01] [Indice Global: 15] A=16 B=16 C=0
+[HOST] [Equipo: PC01] [Indice Global: 16] A=17 B=17 C=0
+[HOST] [Equipo: PC01] [Indice Global: 17] A=18 B=18 C=0
+[HOST] [Equipo: PC01] [Indice Global: 18] A=19 B=19 C=0
+[HOST] [Equipo: PC01] [Indice Global: 19] A=20 B=20 C=0
+[HOST] [Equipo: PC01] [Indice Global: 20] A=21 B=21 C=0
+[HOST] [Equipo: PC01] [Indice Global: 21] A=22 B=22 C=0
+[HOST] [Equipo: PC01] [Indice Global: 22] A=23 B=23 C=0
+[HOST] [Equipo: PC01] [Indice Global: 23] A=24 B=24 C=0
+[HOST] [Equipo: PC01] [Indice Global: 24] A=25 B=25 C=0
+[HOST] [Equipo: PC01] [Indice Global: 25] A=26 B=26 C=0
+[HOST] [Equipo: PC01] [Indice Global: 26] A=27 B=27 C=0
+[HOST] [Equipo: PC01] [Indice Global: 27] A=28 B=28 C=0
+[HOST] [Equipo: PC01] [Indice Global: 28] A=29 B=29 C=0
+[HOST] [Equipo: PC01] [Indice Global: 29] A=30 B=30 C=0
+[HOST] [Equipo: PC01] [Indice Global: 30] A=31 B=31 C=0
+[HOST] [Equipo: PC01] [Indice Global: 31] A=32 B=32 C=0
+[HOST] [Equipo: PC01] [Indice Global: 32] A=33 B=33 C=0
+[HOST] [Equipo: PC01] [Indice Global: 33] A=34 B=34 C=0
+[HOST] [Equipo: PC01] [Indice Global: 34] A=35 B=35 C=0
+[HOST] [Equipo: PC01] [Indice Global: 35] A=36 B=36 C=0
+[HOST] [Equipo: PC01] [Indice Global: 36] A=37 B=37 C=0
+[HOST] [Equipo: PC01] [Indice Global: 37] A=38 B=38 C=0
+[HOST] [Equipo: PC01] [Indice Global: 38] A=39 B=39 C=0
+[HOST] [Equipo: PC01] [Indice Global: 39] A=40 B=40 C=0
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 7
+[HOST] [Equipo: PC01] Datos copiados de Host a Device.
+[HOST] [Equipo: PC01] Llenado aleatorio completado.
+[HOST] [Equipo: PC01] [Indice Global: 0] A=204945 B=622199 C=0
+[HOST] [Equipo: PC01] [Indice Global: 1] A=276287 B=163615 C=0
+[HOST] [Equipo: PC01] [Indice Global: 2] A=472239 B=953483 C=0
+[HOST] [Equipo: PC01] [Indice Global: 3] A=314792 B=426968 C=0
+[HOST] [Equipo: PC01] [Indice Global: 4] A=459996 B=282824 C=0
+[HOST] [Equipo: PC01] [Indice Global: 5] A=43416 B=234440 C=0
+[HOST] [Equipo: PC01] [Indice Global: 6] A=363850 B=525630 C=0
+[HOST] [Equipo: PC01] [Indice Global: 7] A=143798 B=884559 C=0
+[HOST] [Equipo: PC01] [Indice Global: 8] A=178293 B=206375 C=0
+[HOST] [Equipo: PC01] [Indice Global: 9] A=363842 B=766428 C=0
+[HOST] [Equipo: PC01] [Indice Global: 10] A=144037 B=239057 C=0
+[HOST] [Equipo: PC01] [Indice Global: 11] A=903762 B=711716 C=0
+[HOST] [Equipo: PC01] [Indice Global: 12] A=472379 B=626944 C=0
+[HOST] [Equipo: PC01] [Indice Global: 13] A=143235 B=493687 C=0
+[HOST] [Equipo: PC01] [Indice Global: 14] A=46623 B=546760 C=0
+[HOST] [Equipo: PC01] [Indice Global: 15] A=452293 B=251567 C=0
+[HOST] [Equipo: PC01] [Indice Global: 16] A=685311 B=244931 C=0
+[HOST] [Equipo: PC01] [Indice Global: 17] A=931533 B=157549 C=0
+[HOST] [Equipo: PC01] [Indice Global: 18] A=714765 B=246324 C=0
+[HOST] [Equipo: PC01] [Indice Global: 19] A=100868 B=174760 C=0
+[HOST] [Equipo: PC01] [Indice Global: 20] A=529147 B=660635 C=0
+[HOST] [Equipo: PC01] [Indice Global: 21] A=409199 B=409349 C=0
+[HOST] [Equipo: PC01] [Indice Global: 22] A=702617 B=552996 C=0
+[HOST] [Equipo: PC01] [Indice Global: 23] A=293907 B=880909 C=0
+[HOST] [Equipo: PC01] [Indice Global: 24] A=759371 B=657748 C=0
+[HOST] [Equipo: PC01] [Indice Global: 25] A=163688 B=419759 C=0
+[HOST] [Equipo: PC01] [Indice Global: 26] A=896804 B=67449 C=0
+[HOST] [Equipo: PC01] [Indice Global: 27] A=131474 B=885535 C=0
+[HOST] [Equipo: PC01] [Indice Global: 28] A=694392 B=274708 C=0
+[HOST] [Equipo: PC01] [Indice Global: 29] A=379221 B=257366 C=0
+[HOST] [Equipo: PC01] [Indice Global: 30] A=337820 B=831513 C=0
+[HOST] [Equipo: PC01] [Indice Global: 31] A=508933 B=539482 C=0
+[HOST] [Equipo: PC01] [Indice Global: 32] A=592796 B=956817 C=0
+[HOST] [Equipo: PC01] [Indice Global: 33] A=697030 B=307560 C=0
+[HOST] [Equipo: PC01] [Indice Global: 34] A=203141 B=314250 C=0
+[HOST] [Equipo: PC01] [Indice Global: 35] A=482320 B=248639 C=0
+[HOST] [Equipo: PC01] [Indice Global: 36] A=974884 B=891518 C=0
+[HOST] [Equipo: PC01] [Indice Global: 37] A=657987 B=677500 C=0
+[HOST] [Equipo: PC01] [Indice Global: 38] A=960866 B=951893 C=0
+[HOST] [Equipo: PC01] [Indice Global: 39] A=558408 B=720236 C=0
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 2
+[HOST] [Equipo: PC01] Iniciando Kernel: SUMA
+[HOST] [Equipo: PC01] Bloques: 2, hilos/bloque: 32
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: 2] Resultado: 827144
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: 2] Resultado: 439902
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: 2] Resultado: 1425722
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: 2] Resultado: 741760
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: 2] Resultado: 742820
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: 2] Resultado: 277856
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: 2] Resultado: 889480
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: 2] Resultado: 1028357
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: 2] Resultado: 384668
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: 2] Resultado: 1130270
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: 2] Resultado: 383094
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: 2] Resultado: 1615478
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: 2] Resultado: 1099323
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: 2] Resultado: 636922
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: 2] Resultado: 593383
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: 2] Resultado: 703860
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: 2] Resultado: 930242
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: 2] Resultado: 1089082
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: 2] Resultado: 961089
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: 2] Resultado: 275628
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: 2] Resultado: 1189782
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: 2] Resultado: 818548
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: 2] Resultado: 1255613
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: 2] Resultado: 1174816
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: 2] Resultado: 1417119
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: 2] Resultado: 583447
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: 2] Resultado: 964253
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: 2] Resultado: 1017009
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: 2] Resultado: 969100
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: 2] Resultado: 636587
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: 2] Resultado: 1169333
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: 2] Resultado: 1048415
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: 2] Resultado: 1549613
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: 2] Resultado: 1004590
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: 2] Resultado: 517391
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: 2] Resultado: 730959
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: 2] Resultado: 1866402
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: 2] Resultado: 1335487
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: 2] Resultado: 1912759
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: 2] Resultado: 1278644
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 3.711328 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 3
+[HOST] [Equipo: PC01] Iniciando Kernel: RESTA
+[HOST] [Equipo: PC01] Bloques: 2, hilos/bloque: 32
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: 3] Resultado: -417254
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: 3] Resultado: 112672
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: 3] Resultado: -481244
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: 3] Resultado: -112176
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: 3] Resultado: 177172
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: 3] Resultado: -191024
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: 3] Resultado: -161780
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: 3] Resultado: -740761
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: 3] Resultado: -28082
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: 3] Resultado: -402586
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: 3] Resultado: -95020
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: 3] Resultado: 192046
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: 3] Resultado: -154565
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: 3] Resultado: -350452
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: 3] Resultado: -500137
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: 3] Resultado: 200726
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: 3] Resultado: 440380
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: 3] Resultado: 773984
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: 3] Resultado: 468441
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: 3] Resultado: -73892
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: 3] Resultado: -131488
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: 3] Resultado: -150
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: 3] Resultado: 149621
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: 3] Resultado: -587002
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: 3] Resultado: 101623
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: 3] Resultado: -256071
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: 3] Resultado: 829355
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: 3] Resultado: -754061
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: 3] Resultado: 419684
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: 3] Resultado: 121855
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: 3] Resultado: -493693
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: 3] Resultado: -30549
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: 3] Resultado: -364021
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: 3] Resultado: 389470
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: 3] Resultado: -111109
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: 3] Resultado: 233681
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: 3] Resultado: 83366
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: 3] Resultado: -19513
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: 3] Resultado: 8973
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: 3] Resultado: -161828
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 0.129664 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 4
+[HOST] [Equipo: PC01] Iniciando Kernel: MULTIPLICACION
+[HOST] [Equipo: PC01] Bloques: 2, hilos/bloque: 32
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: 4] Resultado: 127516574055
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: 4] Resultado: 45204697505
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: 4] Resultado: 450271858437
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: 4] Resultado: 134406110656
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: 4] Resultado: 130097908704
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: 4] Resultado: 10178447040
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: 4] Resultado: 191250475500
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: 4] Resultado: 127197815082
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: 4] Resultado: 36795217875
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: 4] Resultado: 278858696376
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: 4] Resultado: 34433053109
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: 4] Resultado: 643221875592
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: 4] Resultado: 296155179776
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: 4] Resultado: 70713257445
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: 4] Resultado: 25491591480
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: 4] Resultado: 113781993131
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: 4] Resultado: 167853908541
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: 4] Resultado: 146762092617
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: 4] Resultado: 176063773860
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: 4] Resultado: 17627691680
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: 4] Resultado: 349573028345
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: 4] Resultado: 167505201451
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: 4] Resultado: 388544390532
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: 4] Resultado: 258905321463
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: 4] Resultado: 499474756508
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: 4] Resultado: 68709511192
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: 4] Resultado: 60488532996
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: 4] Resultado: 116424828590
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: 4] Resultado: 190755037536
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: 4] Resultado: 97598591886
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: 4] Resultado: 280901721660
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: 4] Resultado: 274560192706
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: 4] Resultado: 567197290332
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: 4] Resultado: 214378546800
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: 4] Resultado: 63837059250
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: 4] Resultado: 119923562480
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: 4] Resultado: 869126633912
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: 4] Resultado: 445786192500
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: 4] Resultado: 914641619338
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: 4] Resultado: 402185544288
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 0.135616 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 5
+[HOST] [Equipo: PC01] Iniciando Kernel: CUADRADO
+[HOST] [Equipo: PC01] Bloques: 2, hilos/bloque: 32
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: 5] Resultado: 42002453025
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: 5] Resultado: 76334506369
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: 5] Resultado: 223009673121
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: 5] Resultado: 99094003264
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: 5] Resultado: 211596320016
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: 5] Resultado: 1884949056
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: 5] Resultado: 132386822500
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: 5] Resultado: 20677864804
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: 5] Resultado: 31788393849
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: 5] Resultado: 132381000964
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: 5] Resultado: 20746657369
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: 5] Resultado: 816785752644
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: 5] Resultado: 223141919641
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: 5] Resultado: 20516265225
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: 5] Resultado: 2173704129
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: 5] Resultado: 204568957849
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: 5] Resultado: 469651166721
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: 5] Resultado: 867753730089
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: 5] Resultado: 510889005225
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: 5] Resultado: 10174353424
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: 5] Resultado: 279996547609
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: 5] Resultado: 167443821601
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: 5] Resultado: 493670648689
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: 5] Resultado: 86381324649
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: 5] Resultado: 576644315641
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: 5] Resultado: 26793761344
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: 5] Resultado: 804257414416
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: 5] Resultado: 17285412676
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: 5] Resultado: 482180249664
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: 5] Resultado: 143808566841
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: 5] Resultado: 114122352400
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: 5] Resultado: 259012798489
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: 5] Resultado: 351407097616
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: 5] Resultado: 485850820900
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: 5] Resultado: 41266265881
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: 5] Resultado: 232632582400
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: 5] Resultado: 950398813456
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: 5] Resultado: 432946892169
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: 5] Resultado: 923263469956
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: 5] Resultado: 311819494464
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 0.127488 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 8
+[HOST] [Equipo: PC01] Reduccion SUMATORIA de A; N=40
+[HOST] [Equipo: PC01] Nivel 1 [DEVICE]: 2 bloques, 32 hilos/bloque, __shared__
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: Reduccion 0 - Carga] Valor: 204945
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: Reduccion 0 - Carga] Valor: 276287
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: Reduccion 0 - Carga] Valor: 472239
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: Reduccion 0 - Carga] Valor: 314792
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: Reduccion 0 - Carga] Valor: 459996
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: Reduccion 0 - Carga] Valor: 43416
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: Reduccion 0 - Carga] Valor: 363850
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: Reduccion 0 - Carga] Valor: 143798
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: Reduccion 0 - Carga] Valor: 178293
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: Reduccion 0 - Carga] Valor: 363842
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: Reduccion 0 - Carga] Valor: 144037
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: Reduccion 0 - Carga] Valor: 903762
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: Reduccion 0 - Carga] Valor: 472379
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: Reduccion 0 - Carga] Valor: 143235
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: Reduccion 0 - Carga] Valor: 46623
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: Reduccion 0 - Carga] Valor: 452293
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: Reduccion 0 - Carga] Valor: 685311
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: Reduccion 0 - Carga] Valor: 931533
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: Reduccion 0 - Carga] Valor: 714765
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: Reduccion 0 - Carga] Valor: 100868
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: Reduccion 0 - Carga] Valor: 529147
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: Reduccion 0 - Carga] Valor: 409199
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: Reduccion 0 - Carga] Valor: 702617
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: Reduccion 0 - Carga] Valor: 293907
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: Reduccion 0 - Carga] Valor: 759371
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: Reduccion 0 - Carga] Valor: 163688
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: Reduccion 0 - Carga] Valor: 896804
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: Reduccion 0 - Carga] Valor: 131474
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: Reduccion 0 - Carga] Valor: 694392
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: Reduccion 0 - Carga] Valor: 379221
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: Reduccion 0 - Carga] Valor: 337820
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: Reduccion 0 - Carga] Valor: 508933
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: Reduccion 0 - Carga] Valor: 592796
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: Reduccion 0 - Carga] Valor: 697030
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: Reduccion 0 - Carga] Valor: 203141
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: Reduccion 0 - Carga] Valor: 482320
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: Reduccion 0 - Carga] Valor: 974884
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: Reduccion 0 - Carga] Valor: 657987
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: Reduccion 0 - Carga] Valor: 960866
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: Reduccion 0 - Carga] Valor: 558408
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: Reduccion 0 - Parcial] Resultado: 13222837
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: Reduccion 0 - Parcial] Resultado: 5127432
+[HOST] [Equipo: PC01] Parcial [Bloque CUDA: 0] = 13222837
+[HOST] [Equipo: PC01] Parcial [Bloque CUDA: 1] = 5127432
+[HOST] [Equipo: PC01] Resultado global SUMATORIA(A): 18350269
+[HOST] [Equipo: PC01] Tiempo GPU del kernel de reduccion: 0.252960 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 9
+[HOST] [Equipo: PC01] Reduccion PROMEDIO de A; N=40
+[HOST] [Equipo: PC01] Nivel 1 [DEVICE]: 2 bloques, 32 hilos/bloque, __shared__
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: Reduccion 0 - Carga] Valor: 204945
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: Reduccion 0 - Carga] Valor: 276287
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: Reduccion 0 - Carga] Valor: 472239
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: Reduccion 0 - Carga] Valor: 314792
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: Reduccion 0 - Carga] Valor: 459996
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: Reduccion 0 - Carga] Valor: 43416
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: Reduccion 0 - Carga] Valor: 363850
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: Reduccion 0 - Carga] Valor: 143798
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: Reduccion 0 - Carga] Valor: 178293
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: Reduccion 0 - Carga] Valor: 363842
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: Reduccion 0 - Carga] Valor: 144037
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: Reduccion 0 - Carga] Valor: 903762
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: Reduccion 0 - Carga] Valor: 472379
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: Reduccion 0 - Carga] Valor: 143235
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: Reduccion 0 - Carga] Valor: 46623
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: Reduccion 0 - Carga] Valor: 452293
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: Reduccion 0 - Carga] Valor: 685311
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: Reduccion 0 - Carga] Valor: 931533
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: Reduccion 0 - Carga] Valor: 714765
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: Reduccion 0 - Carga] Valor: 100868
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: Reduccion 0 - Carga] Valor: 529147
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: Reduccion 0 - Carga] Valor: 409199
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: Reduccion 0 - Carga] Valor: 702617
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: Reduccion 0 - Carga] Valor: 293907
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: Reduccion 0 - Carga] Valor: 759371
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: Reduccion 0 - Carga] Valor: 163688
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: Reduccion 0 - Carga] Valor: 896804
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: Reduccion 0 - Carga] Valor: 131474
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: Reduccion 0 - Carga] Valor: 694392
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: Reduccion 0 - Carga] Valor: 379221
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: Reduccion 0 - Carga] Valor: 337820
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: Reduccion 0 - Carga] Valor: 508933
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: Reduccion 0 - Carga] Valor: 592796
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: Reduccion 0 - Carga] Valor: 697030
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: Reduccion 0 - Carga] Valor: 203141
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: Reduccion 0 - Carga] Valor: 482320
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: Reduccion 0 - Carga] Valor: 974884
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: Reduccion 0 - Carga] Valor: 657987
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: Reduccion 0 - Carga] Valor: 960866
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: Reduccion 0 - Carga] Valor: 558408
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: Reduccion 0 - Parcial] Resultado: 13222837
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: Reduccion 0 - Parcial] Resultado: 5127432
+[HOST] [Equipo: PC01] Parcial [Bloque CUDA: 0] = 13222837
+[HOST] [Equipo: PC01] Parcial [Bloque CUDA: 1] = 5127432
+[HOST] [Equipo: PC01] Resultado global PROMEDIO(A): 458756.725000
+[HOST] [Equipo: PC01] Tiempo GPU del kernel de reduccion: 0.213984 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 20
+[HOST] [Equipo: PC01] Opcion no valida.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 10
+[HOST] [Equipo: PC01] Reduccion MAXIMO de A; N=40
+[HOST] [Equipo: PC01] Nivel 1 [DEVICE]: 2 bloques, 32 hilos/bloque, __shared__
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: Reduccion 1 - Carga] Valor: 204945
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: Reduccion 1 - Carga] Valor: 276287
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: Reduccion 1 - Carga] Valor: 472239
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: Reduccion 1 - Carga] Valor: 314792
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: Reduccion 1 - Carga] Valor: 459996
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: Reduccion 1 - Carga] Valor: 43416
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: Reduccion 1 - Carga] Valor: 363850
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: Reduccion 1 - Carga] Valor: 143798
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: Reduccion 1 - Carga] Valor: 178293
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: Reduccion 1 - Carga] Valor: 363842
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: Reduccion 1 - Carga] Valor: 144037
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: Reduccion 1 - Carga] Valor: 903762
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: Reduccion 1 - Carga] Valor: 472379
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: Reduccion 1 - Carga] Valor: 143235
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: Reduccion 1 - Carga] Valor: 46623
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: Reduccion 1 - Carga] Valor: 452293
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: Reduccion 1 - Carga] Valor: 685311
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: Reduccion 1 - Carga] Valor: 931533
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: Reduccion 1 - Carga] Valor: 714765
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: Reduccion 1 - Carga] Valor: 100868
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: Reduccion 1 - Carga] Valor: 529147
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: Reduccion 1 - Carga] Valor: 409199
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: Reduccion 1 - Carga] Valor: 702617
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: Reduccion 1 - Carga] Valor: 293907
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: Reduccion 1 - Carga] Valor: 759371
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: Reduccion 1 - Carga] Valor: 163688
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: Reduccion 1 - Carga] Valor: 896804
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: Reduccion 1 - Carga] Valor: 131474
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: Reduccion 1 - Carga] Valor: 694392
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: Reduccion 1 - Carga] Valor: 379221
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: Reduccion 1 - Carga] Valor: 337820
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: Reduccion 1 - Carga] Valor: 508933
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: Reduccion 1 - Carga] Valor: 592796
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: Reduccion 1 - Carga] Valor: 697030
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: Reduccion 1 - Carga] Valor: 203141
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: Reduccion 1 - Carga] Valor: 482320
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: Reduccion 1 - Carga] Valor: 974884
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: Reduccion 1 - Carga] Valor: 657987
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: Reduccion 1 - Carga] Valor: 960866
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: Reduccion 1 - Carga] Valor: 558408
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: Reduccion 1 - Parcial] Resultado: 931533
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: Reduccion 1 - Parcial] Resultado: 974884
+[HOST] [Equipo: PC01] Parcial [Bloque CUDA: 0] = 931533
+[HOST] [Equipo: PC01] Parcial [Bloque CUDA: 1] = 974884
+[HOST] [Equipo: PC01] Resultado global MAXIMO(A): 974884
+[HOST] [Equipo: PC01] Tiempo GPU del kernel de reduccion: 0.236160 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 11
+[HOST] [Equipo: PC01] Reduccion MINIMO de A; N=40
+[HOST] [Equipo: PC01] Nivel 1 [DEVICE]: 2 bloques, 32 hilos/bloque, __shared__
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: Reduccion 2 - Carga] Valor: 204945
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 1] [Indice Global: 1] [Operacion: Reduccion 2 - Carga] Valor: 276287
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 2] [Indice Global: 2] [Operacion: Reduccion 2 - Carga] Valor: 472239
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 3] [Indice Global: 3] [Operacion: Reduccion 2 - Carga] Valor: 314792
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 4] [Indice Global: 4] [Operacion: Reduccion 2 - Carga] Valor: 459996
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 5] [Indice Global: 5] [Operacion: Reduccion 2 - Carga] Valor: 43416
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 6] [Indice Global: 6] [Operacion: Reduccion 2 - Carga] Valor: 363850
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 7] [Indice Global: 7] [Operacion: Reduccion 2 - Carga] Valor: 143798
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 8] [Indice Global: 8] [Operacion: Reduccion 2 - Carga] Valor: 178293
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 9] [Indice Global: 9] [Operacion: Reduccion 2 - Carga] Valor: 363842
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 10] [Indice Global: 10] [Operacion: Reduccion 2 - Carga] Valor: 144037
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 11] [Indice Global: 11] [Operacion: Reduccion 2 - Carga] Valor: 903762
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 12] [Indice Global: 12] [Operacion: Reduccion 2 - Carga] Valor: 472379
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 13] [Indice Global: 13] [Operacion: Reduccion 2 - Carga] Valor: 143235
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 14] [Indice Global: 14] [Operacion: Reduccion 2 - Carga] Valor: 46623
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 15] [Indice Global: 15] [Operacion: Reduccion 2 - Carga] Valor: 452293
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 16] [Indice Global: 16] [Operacion: Reduccion 2 - Carga] Valor: 685311
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 17] [Indice Global: 17] [Operacion: Reduccion 2 - Carga] Valor: 931533
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 18] [Indice Global: 18] [Operacion: Reduccion 2 - Carga] Valor: 714765
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 19] [Indice Global: 19] [Operacion: Reduccion 2 - Carga] Valor: 100868
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 20] [Indice Global: 20] [Operacion: Reduccion 2 - Carga] Valor: 529147
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 21] [Indice Global: 21] [Operacion: Reduccion 2 - Carga] Valor: 409199
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 22] [Indice Global: 22] [Operacion: Reduccion 2 - Carga] Valor: 702617
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 23] [Indice Global: 23] [Operacion: Reduccion 2 - Carga] Valor: 293907
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 24] [Indice Global: 24] [Operacion: Reduccion 2 - Carga] Valor: 759371
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 25] [Indice Global: 25] [Operacion: Reduccion 2 - Carga] Valor: 163688
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 26] [Indice Global: 26] [Operacion: Reduccion 2 - Carga] Valor: 896804
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 27] [Indice Global: 27] [Operacion: Reduccion 2 - Carga] Valor: 131474
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 28] [Indice Global: 28] [Operacion: Reduccion 2 - Carga] Valor: 694392
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 29] [Indice Global: 29] [Operacion: Reduccion 2 - Carga] Valor: 379221
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 30] [Indice Global: 30] [Operacion: Reduccion 2 - Carga] Valor: 337820
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 31] [Indice Global: 31] [Operacion: Reduccion 2 - Carga] Valor: 508933
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: Reduccion 2 - Carga] Valor: 592796
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 1] [Indice Global: 33] [Operacion: Reduccion 2 - Carga] Valor: 697030
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 2] [Indice Global: 34] [Operacion: Reduccion 2 - Carga] Valor: 203141
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 3] [Indice Global: 35] [Operacion: Reduccion 2 - Carga] Valor: 482320
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 4] [Indice Global: 36] [Operacion: Reduccion 2 - Carga] Valor: 974884
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 5] [Indice Global: 37] [Operacion: Reduccion 2 - Carga] Valor: 657987
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 6] [Indice Global: 38] [Operacion: Reduccion 2 - Carga] Valor: 960866
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 7] [Indice Global: 39] [Operacion: Reduccion 2 - Carga] Valor: 558408
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 0] [Hilo CUDA: 0] [Indice Global: 0] [Operacion: Reduccion 2 - Parcial] Resultado: 43416
+[DEVICE] [Equipo: PC01] [Bloque CUDA: 1] [Hilo CUDA: 0] [Indice Global: 32] [Operacion: Reduccion 2 - Parcial] Resultado: 203141
+[HOST] [Equipo: PC01] Parcial [Bloque CUDA: 0] = 43416
+[HOST] [Equipo: PC01] Parcial [Bloque CUDA: 1] = 203141
+[HOST] [Equipo: PC01] Resultado global MINIMO(A): 43416
+[HOST] [Equipo: PC01] Tiempo GPU del kernel de reduccion: 0.211968 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 12
+[HOST] [Equipo: PC01] Finalizando programa.
+[HOST] [Equipo: PC01] Memoria Host y Device liberada.
+[HOST] [Equipo: PC01] ========== NUEVA EJECUCION ==========
+[HOST] [Equipo: PC01] PRACTICA 1.3 - REDUCCIONES CUDA
+[HOST] [Equipo: PC01] GPU: Tesla T4
+[HOST] [Equipo: PC01] Memoria GPU: 14912.687500 MB
+[HOST] [Equipo: PC01] Maximo hilos por bloque: 1024
+[HOST] [Equipo: PC01] Configuracion: N=40, hilos=32, detalle=1
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 12
+[HOST] [Equipo: PC01] Finalizando programa.
+[HOST] [Equipo: PC01] ========== NUEVA EJECUCION ==========
+[HOST] [Equipo: PC01] PRACTICA 1.3 - REDUCCIONES CUDA
+[HOST] [Equipo: PC01] GPU: Tesla T4
+[HOST] [Equipo: PC01] Memoria GPU: 14912.687500 MB
+[HOST] [Equipo: PC01] Maximo hilos por bloque: 1024
+[HOST] [Equipo: PC01] Configuracion: N=40, hilos=32, detalle=1
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 12
+[HOST] [Equipo: PC01] Finalizando programa.
+[HOST] [Equipo: PC01] ========== NUEVA EJECUCION ==========
+[HOST] [Equipo: PC01] PRACTICA 1.3 - REDUCCIONES CUDA
+[HOST] [Equipo: PC01] GPU: Tesla T4
+[HOST] [Equipo: PC01] Memoria GPU: 14912.687500 MB
+[HOST] [Equipo: PC01] Maximo hilos por bloque: 1024
+[HOST] [Equipo: PC01] Configuracion: N=4000000, hilos=256, detalle=0
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 1
+[HOST] [Equipo: PC01] Arreglos A, B y C creados. N=4000000
+[HOST] [Equipo: PC01] Memoria Host y Device reservada.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 6
+[HOST] [Equipo: PC01] Datos copiados de Host a Device.
+[HOST] [Equipo: PC01] Llenado secuencial completado.
+[HOST] [Equipo: PC01] Impresion detallada desactivada.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 7
+[HOST] [Equipo: PC01] Datos copiados de Host a Device.
+[HOST] [Equipo: PC01] Llenado aleatorio completado.
+[HOST] [Equipo: PC01] Impresion detallada desactivada.
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 2
+[HOST] [Equipo: PC01] Iniciando Kernel: SUMA
+[HOST] [Equipo: PC01] Bloques: 15625, hilos/bloque: 256
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 3.107680 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 3
+[HOST] [Equipo: PC01] Iniciando Kernel: RESTA
+[HOST] [Equipo: PC01] Bloques: 15625, hilos/bloque: 256
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 0.281856 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 4
+[HOST] [Equipo: PC01] Iniciando Kernel: MULTIPLICACION
+[HOST] [Equipo: PC01] Bloques: 15625, hilos/bloque: 256
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 0.276224 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 5
+[HOST] [Equipo: PC01] Iniciando Kernel: CUADRADO
+[HOST] [Equipo: PC01] Bloques: 15625, hilos/bloque: 256
+[HOST] [Equipo: PC01] Tiempo GPU (incluye printf si detalle=1): 0.237056 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 8
+[HOST] [Equipo: PC01] Reduccion SUMATORIA de A; N=4000000
+[HOST] [Equipo: PC01] Nivel 1 [DEVICE]: 15625 bloques, 256 hilos/bloque, __shared__
+[HOST] [Equipo: PC01] Resultado global SUMATORIA(A): 1999647421159
+[HOST] [Equipo: PC01] Tiempo GPU del kernel de reduccion: 0.427808 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 9
+[HOST] [Equipo: PC01] Reduccion PROMEDIO de A; N=4000000
+[HOST] [Equipo: PC01] Nivel 1 [DEVICE]: 15625 bloques, 256 hilos/bloque, __shared__
+[HOST] [Equipo: PC01] Resultado global PROMEDIO(A): 499911.855290
+[HOST] [Equipo: PC01] Tiempo GPU del kernel de reduccion: 0.392000 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 10
+[HOST] [Equipo: PC01] Reduccion MAXIMO de A; N=4000000
+[HOST] [Equipo: PC01] Nivel 1 [DEVICE]: 15625 bloques, 256 hilos/bloque, __shared__
+[HOST] [Equipo: PC01] Resultado global MAXIMO(A): 1000000
+[HOST] [Equipo: PC01] Tiempo GPU del kernel de reduccion: 0.470112 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 11
+[HOST] [Equipo: PC01] Reduccion MINIMO de A; N=4000000
+[HOST] [Equipo: PC01] Nivel 1 [DEVICE]: 15625 bloques, 256 hilos/bloque, __shared__
+[HOST] [Equipo: PC01] Resultado global MINIMO(A): 1
+[HOST] [Equipo: PC01] Tiempo GPU del kernel de reduccion: 0.503872 ms
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 12
+[HOST] [Equipo: PC01] Finalizando programa.
+[HOST] [Equipo: PC01] Memoria Host y Device liberada.
+[HOST] [Equipo: PC01] ========== NUEVA EJECUCION ==========
+[HOST] [Equipo: PC01] PRACTICA 1.3 - REDUCCIONES CUDA
+[HOST] [Equipo: PC01] GPU: Tesla T4
+[HOST] [Equipo: PC01] Memoria GPU: 14912.687500 MB
+[HOST] [Equipo: PC01] Maximo hilos por bloque: 1024
+[HOST] [Equipo: PC01] Configuracion: N=40, hilos=32, detalle=1
+[HOST] [Equipo: PC01] ========== MENU CUDA ==========
+[HOST] [Equipo: PC01] 1. Crear arreglos
+[HOST] [Equipo: PC01] 2. Sumar arreglos
+[HOST] [Equipo: PC01] 3. Restar arreglos
+[HOST] [Equipo: PC01] 4. Multiplicar arreglos
+[HOST] [Equipo: PC01] 5. Calcular cuadrado
+[HOST] [Equipo: PC01] 6. Llenar secuencial
+[HOST] [Equipo: PC01] 7. Llenar aleatorio
+[HOST] [Equipo: PC01] 8. Sumatoria (Reduccion GPU)
+[HOST] [Equipo: PC01] 9. Promedio (Reduccion GPU)
+[HOST] [Equipo: PC01] 10. Maximo (Reduccion GPU)
+[HOST] [Equipo: PC01] 11. Minimo (Reduccion GPU)
+[HOST] [Equipo: PC01] 12. Salir
+[HOST] [Equipo: PC01] Opcion seleccionada: 12
+[HOST] [Equipo: PC01] Finalizando programa.
